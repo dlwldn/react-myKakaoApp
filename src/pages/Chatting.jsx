@@ -1,9 +1,10 @@
 import React from 'react'
+import MainHeader from '../components/MainHeader';
 
 const Chatting = () => {
   return (
     <div>
-      채팅
+      <MainHeader title="채팅"/>
     </div>
   )
 }

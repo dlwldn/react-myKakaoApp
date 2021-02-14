@@ -1,0 +1,49 @@
+{
+  "friendData" : [
+    { 
+      "id": 0,
+      "kakaoId": "tototo1",
+      "name": "ZeroCho",
+      "status": "React 배워보고싶어요?",
+      "birthday": "20161010",
+      "music": null,
+      "profile": "https://yt3.ggpht.com/ytc/AAUvwngOaXxGqGtDJb7i78MP9j844Mm8-1GxWdhtoaRa=s88-c-k-c0x00ffffff-no-rj"
+    },
+    { 
+      "id": 1,
+      "kakaoId": "tototo2",
+      "name": "생활코딩",
+      "status": "날씨 맑네~",
+      "birthday": "20161010",
+      "music": null,
+      "profile": "https://yt3.ggpht.com/ytc/AAUvwnixTZaU4vgEH-Zb3w4ZSTu9rrBCa7TM1puxT5PT=s88-c-k-c0x00ffffff-no-rj"
+    },
+    { 
+      "id": 2,
+      "kakaoId": "tototo3",
+      "name": "Velopert",
+      "status": "React로 개발하는사람",
+      "birthday": "20161010",
+      "music": null,
+      "profile": "https://yt3.ggpht.com/ytc/AAUvwnhWv6x-0h_DIbLEyX4YeqgxWbSJXgqUpR2Pt-US=s88-c-k-c0x00ffffff-no-rj"
+    },
+    { 
+      "id": 3,
+      "kakaoId": "tototo4",
+      "name": "Code Scalper",
+      "status": "최대한 간결하게",
+      "birthday": "20161010",
+      "music": null,
+      "profile": "https://yt3.ggpht.com/ytc/AAUvwnje0tdPIm0PnhZ505GGRxsXQfzE3y7u0jOux5mM=s88-c-k-c0x00ffffff-no-rj"
+    },
+    { 
+      "id": 4,
+      "kakaoId": "tototo5",
+      "name": "Elli",
+      "status": "엘리의 자바스크립트 교실",
+      "birthday": "20161010",
+      "music": null,
+      "profile": "https://yt3.ggpht.com/ytc/AAUvwnj7IdkNU4pPEprJECTqgZN7c1qJTiOXSDZMnAnz-w=s88-c-k-c0x00ffffff-no-rj"
+    }
+  ]
+}

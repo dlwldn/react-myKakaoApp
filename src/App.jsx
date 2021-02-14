@@ -12,6 +12,7 @@ const Container = styled.div`
 
 const Main = styled.main`
   width: 100%;
+  padding: 50px 20px;
 `
 
 const App = () => {

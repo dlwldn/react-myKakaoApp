@@ -1,30 +1,22 @@
 import React from 'react'
 import styled from 'styled-components';
 
+import MainHeader from '../components/MainHeader';
+import ProfileList from '../components/ProfileList';
+
 const HomeWrapper = styled.section`
 `
+
+const HEADER_TITLE = "친구";
+const MODE_ME = 1;
+const MODE_FRIEND = 2;
 
 const Home = () => {
   return (
     <HomeWrapper>
-      <header>
-        <h1>친구</h1>
-        <div>
-          <span>검색</span>
-          <span>친구추가</span>
-        </div>
-      </header>
-
-      <div>
-        내 프로필 구역
-      </div>
-
-      <section>
-        <h2>친구</h2>
-        <ul>
-        <li>리스트</li>
-        </ul>
-      </section>
+      <MainHeader title={HEADER_TITLE}/>
+      <ProfileList mode={MODE_ME}/>
+      <ProfileList mode={MODE_FRIEND}/>
     </HomeWrapper>
   )
 }

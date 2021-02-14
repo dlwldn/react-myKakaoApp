@@ -5,7 +5,7 @@ import { FiMoreHorizontal } from 'react-icons/fi';
 import useReactRouter from 'use-react-router';
 
 const Nav = styled.div`
-  min-width: 80px;
+  min-width: 70px;
   height: 100vh;
   padding: 50px 0;
   background-color: #f7f4f4;
@@ -27,17 +27,19 @@ const IconPerson = styled(BsPersonFill)`
   &:hover {
     cursor: pointer;
     transition: 0.3s;
-    color: #4a4a4a;
+    color: #6d6d6d;
   }
-`
+  color: ${props => props.url === "" ? "initial" : "#bfbfbf"}
+` 
 
 const IconChat = styled(BsChatFill)`
   font-size: 25px;
   &:hover {
     cursor: pointer;
     transition: 0.3s;
-    color: #4a4a4a;
+    color: #6d6d6d;
   }
+  color: ${props => props.url === "chatting" ? "initial" : "#bfbfbf"}
 `
 
 const IconMore = styled(FiMoreHorizontal)`
@@ -45,8 +47,9 @@ const IconMore = styled(FiMoreHorizontal)`
   &:hover {
     cursor: pointer;
     transition: 0.3s;
-    color: #4a4a4a;
+    color: #6d6d6d;
   }
+  color: ${props => props.url === "more" ? "initial" : "#bfbfbf"}
 `
 
 const Navigator = () => {
@@ -73,9 +76,9 @@ const Navigator = () => {
   return (
     <Nav>
       <NavIconWrapper >
-        <IconPerson onClick={onClickNavUserButton} style={currPathName === "" ? {color: "initial"} : null}/>
-        <IconChat onClick={onClickNavChatButton} style={currPathName === "chatting" ? {color: "initial"} : null}/>
-        <IconMore onClick={onClickNavMoreButton} style={currPathName === "more" ? {color: "initial"} : null}/>
+        <IconPerson onClick={onClickNavUserButton} url={currPathName}/>
+        <IconChat onClick={onClickNavChatButton} url={currPathName}/>
+        <IconMore onClick={onClickNavMoreButton} url={currPathName}/>
       </NavIconWrapper>
     </Nav>
   )
